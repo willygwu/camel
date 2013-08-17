@@ -1,0 +1,7 @@
+<project default="wsgen">
+		<target name="wsgen">
+			<exec executable="C:\Program Files\Java\jdk1.7.0_17\bin\wsgen">
+				<arg line="-cp ./bin -keep -s ./src -d ./bin  com.hjh.ws.HelloworldWebService"/>
+			</exec>
+		</target>
+</project>
